@@ -4,6 +4,7 @@ public class ConstructorOverload {
     int a,b;
     ConstructorOverload(int a)
     {
+
         this(a,0);
     }
     ConstructorOverload(int a,int b)

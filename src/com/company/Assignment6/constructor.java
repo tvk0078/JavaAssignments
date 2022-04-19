@@ -3,6 +3,7 @@ package com.company.Assignment6;
 public class constructor {
     constructor(String  str)
     {
+
         System.out.println(str);
     }
 

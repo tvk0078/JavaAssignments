@@ -1,0 +1,8 @@
+The file Input.txt contains: 
+r has repeated 1 times
+d has repeated 1 times
+e has repeated 1 times
+W has repeated 1 times
+H has repeated 1 times
+l has repeated 3 times
+o has repeated 2 times
