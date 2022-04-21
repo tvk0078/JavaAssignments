@@ -6,9 +6,10 @@ import java.io.*;
 
 public class Character {
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
-        System.out.println("Enter File Name : ");
-        String fileName= input.next();
+//        Scanner input=new Scanner(System.in);
+//        System.out.println("Enter File Name : ");
+//        String fileName= input.next();
+        String fileName=args[0];
         try {
             Scanner file=new Scanner(new File(fileName));
             HashMap<java.lang.Character, Integer> hm=new HashMap<>();
@@ -25,6 +26,7 @@ public class Character {
             for(Map.Entry<java.lang.Character, Integer> obj:hm.entrySet()){
                 printWriter.println(obj.getKey()+" has repeated "+obj.getValue()+" times");
             }
+            System.out.println("Program is executed Check result in output.txt");
             file.close();
             printWriter.close();
         }catch (FileNotFoundException e){
