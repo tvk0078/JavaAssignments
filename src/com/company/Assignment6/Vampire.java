@@ -74,7 +74,7 @@ class Vampire1{
         {
             cou++;
             for(int z=0;z<v;z++)
-                System.out.println(b[z]*n/b[z]+":\t "+b[z]+"\t"+(n/b[z]));
+                System.out.println(b[z]*n/b[z]+":\t "+b[z]+" * "+(n/b[z]));
         }
     }
 }
